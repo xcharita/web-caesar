@@ -28,10 +28,13 @@ form = """
     <body>
 
         <form method="POST">
-            <label for="rotate">Rotate by:</label><br>
-            <input type="text" name="rot" id="rotate" value=number>
+            <label>Rotate by:
+                <input name="rotate" type="number" value="rotnum"/>
+            </label><br>
             <br><br>
-            <textarea name="text" rows="20" cols="20"></textarea>
+            <label>Bla
+                <textarea name="caesar_text" rows="20" cols="20"></textarea>
+            </label>
             <br>
             <input type="submit">
         </form>
