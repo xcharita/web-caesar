@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            form {
+                background-color: #eee;
+                padding: 20px;
+                margin: 0 auto;
+                width: 540px;
+                font: 16px sans-serif;
+                border-radius: 10px;
+            }
+            textarea, select, input {
+                margin: 10px 0;
+                border: 2px black solid;
+                width: 540px;
+                height: 120px;
+            }
+        </style>
+    </head>
+    <body>
+
+      <!-- create your form here -->
+        <form action="/form-submit" method="POST">
+            <label rot="rotate">Rotate by:</label><br>
+            <input type="text" name="rot" id="rotate" value=number>
+            <br><br>
+            <textarea name="text" rows="20" cols="20"></textarea>
+            <br>
+            <button type="submit" value="Submit">
+            Submit
+            </button>
+        </form>
+    </body>
+</html>
